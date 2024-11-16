@@ -1,0 +1,24 @@
+
+
+Marcelo@Marcelo MINGW64 /c/xampp/htdocs/PHP_HCODE
+$ GIT INIT
+git: 'INIT' is not a git command. See 'git --help'.
+
+Marcelo@Marcelo MINGW64 /c/xampp/htdocs/PHP_HCODE
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/PHP_HCODE/.git/
+
+Marcelo@Marcelo MINGW64 /c/xampp/htdocs/PHP_HCODE (master)
+$ git add hellow.php
+
+Marcelo@Marcelo MINGW64 /c/xampp/htdocs/PHP_HCODE (master)
+$ git add --all
+
+Marcelo@Marcelo MINGW64 /c/xampp/htdocs/PHP_HCODE (master)
+$ git commit -m "meu primeiro commit hellow"
+[master (root-commit) fc41965] meu primeiro commit hellow
+ 1 file changed, 18 insertions(+)
+ create mode 100644 hellow.php
+
+Marcelo@Marcelo MINGW64 /c/xampp/htdocs/PHP_HCODE (master)
+$
