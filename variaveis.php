@@ -12,14 +12,19 @@ echo "<br/>";
 
 //unset($variavel, $nome);
 
-if (isset($nome, $variavel)){
+if (isset($nome, $variavel)) {
 	echo " $nome Esta variavel ainda esta ativa";
-}else{
+} else {
 	echo " $nome Esta variavel não mais existe";
 }
 
 //$kard = $_GET['variable']
 $ip = $_SERVER["REMOTE_ADDR"];
 echo "<br>";
-echo "Endereço do servidor : " . $ip
-?>
+echo "Endereço do servidor : " . $ip;
+
+$idade = 25;
+$altura = 1.75;
+$letra = 'a';
+$strings = "767,787,706-00";
+$listas = ["a", "b", "c"];
